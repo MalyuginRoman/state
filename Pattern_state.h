@@ -109,7 +109,7 @@ void GasState::Heat(StateContext* state)
     std::cout << "Nothing happens" << std::endl;
 }
 
-void Test()
+void pattern_test()
 {
     StateContext* sc = new StateContext(new SolidState());
     sc->Heat();
