@@ -2,7 +2,7 @@
 
 int main(int, char **)
 {
-    Test();
+    pattern_test();
 
     return 0;
 }
