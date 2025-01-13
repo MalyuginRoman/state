@@ -20,7 +20,7 @@ void tearDown(void){}
 protected:
   void test1(void)
 {
-    Test();
+    pattern_test();
 }
 };
 
