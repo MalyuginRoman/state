@@ -7,6 +7,8 @@
 #include <cppunit/extensions/TestFactoryRegistry.h>
 #include <cppunit/extensions/HelperMacros.h>
 
+#include "Pattern_state.h"
+
 class pattern_state_test : public CPPUNIT_NS::TestCase
 {
 CPPUNIT_TEST_SUITE(pattern_state_test);
