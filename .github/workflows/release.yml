@@ -14,13 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install cppunit
-      run: sudo apt install nlohmann-json3-dev 
-           sudo apt install libgtest-dev
-           sudo apt install libssl-dev
-           mkdir build
-           cd build
-           cmake ..
-           cmake --build . -j
+      run: sudo apt install -y libcppunit-dev
     - name: make
       run: make
     - name: make test
